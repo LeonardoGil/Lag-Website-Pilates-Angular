@@ -10,3 +10,8 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+@font-face {
+    font-family: QueensidesMedium;
+    src: url(assets/fonts/QueensidesMedium.ttf);
+}

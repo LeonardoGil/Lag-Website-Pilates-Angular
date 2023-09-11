@@ -37,14 +37,29 @@ section {
 
 .box-title {
     text-align: center;
-    padding: 25px;
-    font-family: 'Raleway', cursive;
+    padding: 20px;
+    font-family: QueensidesMedium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.box-title h1 {
+.box-title p {
     text-shadow: black 3px 3px 12px;
-    font-size: 32px;
+    font-size: 26px;
     color: rgb(239, 225, 199);
+    padding: 10px 0;
+}
+
+
+.title-studio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: overline underline;
+    text-underline-offset: 10px;
+    font-size: 30px;
+    margin: 0 15px;
 }
 
 .image {
@@ -53,4 +68,13 @@ section {
     margin-left: 10%;
 }
 
+.icon-pilates {
+    background: url(../assets/meditacao.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 32px;
+    width: 32px;
+}
 
