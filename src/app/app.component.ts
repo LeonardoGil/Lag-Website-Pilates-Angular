@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: '../Templates/sketch.html',
+  styleUrls: ['../Templates/sketch.css']
 })
 export class AppComponent {
   title = 'Lag Pilates';
