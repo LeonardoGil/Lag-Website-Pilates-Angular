@@ -123,8 +123,16 @@ section {
 }
 
 .info-title {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
+}
+
+.info-title h2 {
+    color: #F2D4AE;
+}
+
+.info-title span {
+    color: #F2CA7E;
 }
 
 .info-button {
@@ -141,7 +149,7 @@ section {
     width: 220px;
     height: 35px;
     border-radius: 25px;
-    background: radial-gradient(rgb(184, 131, 90), rgb(160, 110, 72));
+    background: radial-gradient(#A6775B, rgb(160, 110, 72));
     box-shadow: 2px 2px 6px 2px rgb(109, 79, 60);
     color: rgb(239, 225, 199);
 }
